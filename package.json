@@ -1,0 +1,19 @@
+{
+  "name": "refund_agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env agent.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^1.0.6",
+    "@langchain/groq": "^1.0.1",
+    "@langchain/langgraph": "^1.0.2",
+    "langchain": "^1.0.6",
+    "zod": "^4.1.13"
+  }
+}
